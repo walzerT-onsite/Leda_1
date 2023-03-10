@@ -94,6 +94,8 @@ class SampleApp(VehicleApp):
             data,
         )
 
+
+
         # Getting current speed from VehicleDataBroker using the DataPoint getter.
         vehicle_speed = (await self.Vehicle.Speed.get()).value
 
